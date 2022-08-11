@@ -1,0 +1,29 @@
+
+.container {
+    text-align: center;
+  }
+ 
+h2 {
+    font-size: 2rem;
+  }
+
+  main {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .btn {
+    
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding:10px;
+  }
+  .btn:hover {
+    color: white;
+    background: black;
+  }
