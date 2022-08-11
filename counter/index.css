@@ -1,0 +1,28 @@
+
+
+main {
+  height:300px;
+  width:870px;
+  background-color: pink;
+  margin: 10px;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.btn {
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-color: rgb(231, 123, 141);
+  }
+.btn:hover {
+   color: white; 
+  background: black;
+}
