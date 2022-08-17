@@ -1,1 +1,1 @@
-<img src="color.flipper.PNG" alt="">
+<img src="color.PNG" alt="">

@@ -1,14 +1,11 @@
 
-const color = document.querySelector(".color");
-const btn = document.getElementById("btn");
-const colors = ["pink","yellow", "red", "rgba(133,122,200)", "#f15025"];
-btn.addEventListener("click", function () {
-    const randomNumber = getRandomNumber();
-  
-    document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber];
-  });
-  
-  function getRandomNumber() {
-    return Math.floor(Math.random() * colors.length);
-  }
+let color = document.querySelector(".color");
+let btn = document.querySelector(".btn");
+
+btn.addEventListener("click", (event) => {
+    event.preventDefault();
+  let randomNumber = Math.floor(Math.random() * 15777);
+  let randomCode = "#" + randomNumber.toString(15);
+  document.body.style.backgroundColor = randomCode;
+  color.value = `${"Background Color :"} ${randomCode}`;
+});
